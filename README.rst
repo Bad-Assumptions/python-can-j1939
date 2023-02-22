@@ -50,7 +50,13 @@ The CAN messages in a SAE J1939 network are called Protocol Data Units (PDUs).
 This definition is not completely correct, but close enough to think of PDUs
 as the CAN messages.
 
-
+BA Technical Notes
+------------------
+[Move this section to Technical Notes document]
+* Must use with a 64-bit Python interpreter if using 64-bit PCANBasic.dll PCAN driver.
+* "PEAK-driver couldn't be found" means the PCANBasic.dll isn't installed or you're mixing 32-bit and 64-bit software.
+* Install packages with "C:\Users\balano\Documents\GitHub\python-can-j1939\venv2\Scripts\python.exe -m pip install --upgrade [package]"
+  where venv2 is the location of your 64-bit interpreter
 Features
 --------
 

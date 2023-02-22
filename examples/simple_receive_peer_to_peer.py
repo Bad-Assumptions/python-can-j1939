@@ -33,7 +33,7 @@ def main():
     # (see https://python-can.readthedocs.io/en/stable/bus.html).
     # ecu.connect(bustype='socketcan', channel='can0')
     # ecu.connect(bustype='kvaser', channel=0, bitrate=250000)
-    ecu.connect(bustype='pcan', channel='PCAN_USBBUS1', bitrate=500000)
+    ecu.connect(bustype='pcan', channel='PCAN_USBBUS1', bitrate=250000)
     # ecu.connect(bustype='ixxat', channel=0, bitrate=250000)
     # ecu.connect(bustype='vector', app_name='CANalyzer', channel=0, bitrate=250000)
     # ecu.connect(bustype='nican', channel='CAN0', bitrate=250000)
